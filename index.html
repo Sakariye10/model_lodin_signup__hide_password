@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and registration</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--header-->
+
+    <header class="header">
+
+   <nav class="nav">
+
+    
+   <a href="#" class="logo-nav">Scode</a>
+
+
+       <ul class="nav_items">
+        <li class="nav_item">
+            <a href="#" class="nav_link">Home</a>
+            <a href="#" class="nav_link">About</a>
+            <a href="#" class="nav_link">Contact</a>
+            <a href="#" class="nav_link">Service</a>
+        </li>
+       </ul>
+       <button class="button" id="form_open">login</button>
+   </nav>
+    </header>
+     <!--header end-->
+
+<!--home-->
+
+<section class="home">
+     
+    <div class="form_container">
+       <i class="fa-solid fa-xmark form_close"></i>
+<!--loging form-->
+<div class=" form login_form">
+
+    <form action="#">
+        <h2>login</h2>
+        <div class="input_box">
+            <input type="email" placeholder="Enter Your Email" required>
+          <i class="fa-regular fa-envelope email"></i>
+        </div>
+        <div class="input_box">
+            <input type="password" placeholder="Enter Your Password" required>
+         <i class="fa-solid fa-lock password"></i>
+         <i class="fa-regular fa-eye-slash hide"></i> 
+        </div>
+        <div class="option_field">
+            <span class="check_box">
+                <input type="checkbox" id="check">
+                <label for="check">Remember me</label>
+            </span>
+            <a href="#" class="forgot_pw">forgot password?</a>
+        </div>
+        <button class="button">Login Now</button>
+        <div class="login_sinup">Don't  have an account? <a href="#" id="SignUp"> signup</a></div>
+    </form>
+</div>
+
+<!--SingUp-->
+
+
+
+<div class="Signup_form">
+
+    <form action="#">
+        <h2>SignUp</h2>
+        <div class="input_box">
+            <input type="email" placeholder="Enter Your Email" required>
+          <i class="fa-regular fa-envelope email"></i>
+        </div>
+        <div class="input_box">
+            <input type="password" placeholder="Create Password" required>
+         <i class="fa-solid fa-lock password"></i>
+         <i class="fa-regular fa-eye-slash hide"></i> 
+        </div>
+        <div class="input_box">
+            <input type="password" placeholder="Confirm Password" required>
+         <i class="fa-solid fa-lock password"></i>
+         <i class="fa-regular fa-eye-slash hide"></i> 
+        </div>
+       
+        <button class="button">SignUp Now</button>
+        <div class="login_sinup">Already  have an account? <a href="#" class="signup" id="Login"> Login</a></div>
+    </form>
+</div>
+<!--SingUp end-->
+
+
+
+       
+    </div>
+
+
+</section>
+
+
+
+<!--home-->
+
+
+</body>
+</html>
